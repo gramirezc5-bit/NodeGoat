@@ -28,9 +28,9 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      with:
-    args: >
-      -Dsonar.projectKey=gramirezc5-bit_NodeGoat
-      -Dsonar.organization=gramirezc5-bit
-      -Dsonar.sources=.
+        with:
+          args: >
+            -Dsonar.projectKey=gramirezc5-bit_NodeGoat
+            -Dsonar.organization=gramirezc5-bit
+            -Dsonar.sources=.
 
